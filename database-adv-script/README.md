@@ -42,3 +42,23 @@ We explored how to retrieve combined data across related tables using different 
 3. Run the file against your MySQL database:
    ```bash
    mysql -u root -p alx_airbnb < task_0/joins_queries.sql
+
+   # Task 1 – Practice Subqueries
+
+This task focuses on writing **subqueries** in SQL using the Airbnb database schema.  
+We will implement both **non-correlated** and **correlated** subqueries.
+
+---
+
+## 📂 File
+- `subqueries.sql` → contains all subquery queries for this task.
+
+---
+
+## 📌 What are Subqueries?
+A **subquery** is a query nested inside another SQL query. It helps filter, calculate, or compare data.  
+There are two main types:
+1. **Non-Correlated Subquery** → runs independently of the outer query.  
+2. **Correlated Subquery** → depends on values from the outer query.
+
+
